@@ -1,0 +1,12 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/hh/Desktop/Hejunlu_fProjects/build/cmake_install.cmake",
+		"/Users/hh/Desktop/Hejunlu_fProjects/build/C++\u76f8\u5173\u5185\u5bb9/cmake_install.cmake",
+		"/Users/hh/Desktop/Hejunlu_fProjects/build/C++\u76f8\u5173\u5185\u5bb9/c++ STL\u5bb9\u5668/cmake_install.cmake",
+		"/Users/hh/Desktop/Hejunlu_fProjects/build/C++\u76f8\u5173\u5185\u5bb9/c++\u73b0\u4ee3\u7279\u6027/cmake_install.cmake",
+		"/Users/hh/Desktop/Hejunlu_fProjects/build/C++\u76f8\u5173\u5185\u5bb9/c++\u5185\u5b58\u7ba1\u7406/cmake_install.cmake",
+		"/Users/hh/Desktop/Hejunlu_fProjects/build/C++\u76f8\u5173\u5185\u5bb9/c++\u865a\u51fd\u6570\u4e0e\u591a\u6001/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

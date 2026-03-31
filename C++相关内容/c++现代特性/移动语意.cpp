@@ -49,7 +49,7 @@ MyString& operator=(MyString&& other) noexcept{
 }
 */
 
-//4、std::move的作用
+//4、std::move的作用=====区别forward完美转发
 /*
     不移动数据，只转类型
     作用：强迫编译器使用移动语义，而不是拷贝
@@ -63,24 +63,24 @@ MyString& operator=(MyString&& other) noexcept{
 //5、编写支持移动的String类
 #include <iostream>
 #include <cstring>
-#include <utility>//为了std：：move
+#include <utility>//为了std::move
 using namespace std;
 
 class String{
 private:
-    char* _data;
-    int   _len;
+    char* _data;//指向字符串真实内存
+    int   _len;//字符串长度
 
 public:
-    //1.普通构造
+    //1.普通构造:接收一个字符串->开辟内存->把内容复制进去
     String(const char* str=""){
-        _len=strlen(str);
-        _data=new char[_len+1];
+        _len=strlen(str);//计算长度
+        _data=new char[_len+1];//申请内存
         strcpy(_data,str);
         cout<<"构造:"<<_data<<endl;
     }
 
-    //2.析构函数
+    //2.析构函数:对象销毁时自动释放内存->防止内存泄漏
     ~String() {
         if(_data){
             cout<<"析构:"<<_data<<endl;
@@ -89,7 +89,7 @@ public:
         }
     }
 
-    //3.拷贝构造（深拷贝）
+    //3.拷贝构造（深拷贝）:用一个旧对象，创建一个新对象->重新开辟内存 → 复制数据->两个对象各有各的内存，互不影响
     String(const String& other){
         _len=other._len;
         _data=new char[_len + 1];
@@ -97,55 +97,55 @@ public:
         cout<<"拷贝构造:拷贝了数据"<<endl;
     }
 
-    //4.拷贝赋值（深拷贝）
-    String& operator=(const String& other) {
-        if (this == &other) return *this;
+    //4.拷贝赋值（深拷贝）:对象已经存在->把另一个对象的值赋值给它->必须先释放自己，再拷贝
+    String& operator=(const String& other){
+        if(this==&other) return *this;
 
         // 释放自己
         delete[] _data;
 
         // 重新分配并拷贝
-        _len = other._len;
-        _data = new char[_len + 1];
-        strcpy(_data, other._data);
-        cout << "拷贝赋值: 拷贝了数据" << endl;
+        _len=other._len;
+        _data=new char[_len + 1];
+        strcpy(_data,other._data);
+        cout<<"拷贝赋值:拷贝了数据"<<endl;
         return *this;
     }
 
     // ===================== 移动语义 =====================
-    // 5. 移动构造（偷资源）
+    //5.移动构造（偷资源）:创建新对象时,不拷贝内存->直接偷别人的内存->把对方指针置空，防止重复释放
     String(String&& other) noexcept {
-        // 直接拿指针
-        _data = other._data;
-        _len  = other._len;
+        //直接拿指针
+        _data=other._data;
+        _len=other._len;
 
-        // 把对方置空，防止重复释放
-        other._data = nullptr;
-        other._len  = 0;
+        //把对方置空，防止重复释放
+        other._data=nullptr;
+        other._len=0;
 
-        cout << "移动构造: 偷资源" << endl;
+        cout<<"移动构造:偷资源"<<endl;
     }
 
-    // 6. 移动赋值（偷资源）
-    String& operator=(String&& other) noexcept {
-        if (this == &other) return *this;
+    //6.移动赋值（偷资源）:已有对象，重新赋值->先释放自己->再偷对方资源
+    String& operator=(String&& other) noexcept{
+        if(this==&other) return *this;
 
-        // 先释放自己
+        //先释放自己
         delete[] _data;
 
-        // 偷对方
-        _data = other._data;
-        _len  = other._len;
+        //偷对方
+        _data=other._data;
+        _len=other._len;
 
-        // 对方置空
-        other._data = nullptr;
-        other._len  = 0;
+        //对方置空
+        other._data=nullptr;
+        other._len=0;
 
-        cout << "移动赋值: 偷资源" << endl;
+        cout<<"移动赋值: 偷资源"<<endl;
         return *this;
     }
 
-    //辅助打印
+    //辅助打印:有数据 → 返回字符串;没数据 → 返回 (null)
     const char* c_str() const{
         return _data?_data:"(null)";
     }
