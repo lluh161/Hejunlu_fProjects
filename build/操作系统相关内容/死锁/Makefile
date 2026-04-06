@@ -130,6 +130,20 @@ DeadLock/fast:
 	cd /Users/hh/Desktop/Hejunlu_fProjects/build && $(MAKE) $(MAKESILENT) -f 操作系统相关内容/死锁/CMakeFiles/DeadLock.dir/build.make 操作系统相关内容/死锁/CMakeFiles/DeadLock.dir/build
 .PHONY : DeadLock/fast
 
+# Convenience name for target.
+操作系统相关内容/死锁/CMakeFiles/BankerAlgorithm.dir/rule:
+	cd /Users/hh/Desktop/Hejunlu_fProjects/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 操作系统相关内容/死锁/CMakeFiles/BankerAlgorithm.dir/rule
+.PHONY : 操作系统相关内容/死锁/CMakeFiles/BankerAlgorithm.dir/rule
+
+# Convenience name for target.
+BankerAlgorithm: 操作系统相关内容/死锁/CMakeFiles/BankerAlgorithm.dir/rule
+.PHONY : BankerAlgorithm
+
+# fast build rule for target.
+BankerAlgorithm/fast:
+	cd /Users/hh/Desktop/Hejunlu_fProjects/build && $(MAKE) $(MAKESILENT) -f 操作系统相关内容/死锁/CMakeFiles/BankerAlgorithm.dir/build.make 操作系统相关内容/死锁/CMakeFiles/BankerAlgorithm.dir/build
+.PHONY : BankerAlgorithm/fast
+
 死锁.o: 死锁.cpp.o
 .PHONY : 死锁.o
 
@@ -154,6 +168,30 @@ DeadLock/fast:
 	cd /Users/hh/Desktop/Hejunlu_fProjects/build && $(MAKE) $(MAKESILENT) -f 操作系统相关内容/死锁/CMakeFiles/DeadLock.dir/build.make 操作系统相关内容/死锁/CMakeFiles/DeadLock.dir/死锁.cpp.s
 .PHONY : 死锁.cpp.s
 
+银行家算法.o: 银行家算法.cpp.o
+.PHONY : 银行家算法.o
+
+# target to build an object file
+银行家算法.cpp.o:
+	cd /Users/hh/Desktop/Hejunlu_fProjects/build && $(MAKE) $(MAKESILENT) -f 操作系统相关内容/死锁/CMakeFiles/BankerAlgorithm.dir/build.make 操作系统相关内容/死锁/CMakeFiles/BankerAlgorithm.dir/银行家算法.cpp.o
+.PHONY : 银行家算法.cpp.o
+
+银行家算法.i: 银行家算法.cpp.i
+.PHONY : 银行家算法.i
+
+# target to preprocess a source file
+银行家算法.cpp.i:
+	cd /Users/hh/Desktop/Hejunlu_fProjects/build && $(MAKE) $(MAKESILENT) -f 操作系统相关内容/死锁/CMakeFiles/BankerAlgorithm.dir/build.make 操作系统相关内容/死锁/CMakeFiles/BankerAlgorithm.dir/银行家算法.cpp.i
+.PHONY : 银行家算法.cpp.i
+
+银行家算法.s: 银行家算法.cpp.s
+.PHONY : 银行家算法.s
+
+# target to generate assembly for a file
+银行家算法.cpp.s:
+	cd /Users/hh/Desktop/Hejunlu_fProjects/build && $(MAKE) $(MAKESILENT) -f 操作系统相关内容/死锁/CMakeFiles/BankerAlgorithm.dir/build.make 操作系统相关内容/死锁/CMakeFiles/BankerAlgorithm.dir/银行家算法.cpp.s
+.PHONY : 银行家算法.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,10 +200,14 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... BankerAlgorithm"
 	@echo "... DeadLock"
 	@echo "... 死锁.o"
 	@echo "... 死锁.i"
 	@echo "... 死锁.s"
+	@echo "... 银行家算法.o"
+	@echo "... 银行家算法.i"
+	@echo "... 银行家算法.s"
 .PHONY : help
 
 

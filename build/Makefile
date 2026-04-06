@@ -311,6 +311,19 @@ DeadLock/fast:
 	$(MAKE) $(MAKESILENT) -f 操作系统相关内容/死锁/CMakeFiles/DeadLock.dir/build.make 操作系统相关内容/死锁/CMakeFiles/DeadLock.dir/build
 .PHONY : DeadLock/fast
 
+#=============================================================================
+# Target rules for targets named BankerAlgorithm
+
+# Build rule for target.
+BankerAlgorithm: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 BankerAlgorithm
+.PHONY : BankerAlgorithm
+
+# fast build rule for target.
+BankerAlgorithm/fast:
+	$(MAKE) $(MAKESILENT) -f 操作系统相关内容/死锁/CMakeFiles/BankerAlgorithm.dir/build.make 操作系统相关内容/死锁/CMakeFiles/BankerAlgorithm.dir/build
+.PHONY : BankerAlgorithm/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -319,6 +332,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... BankerAlgorithm"
 	@echo "... DeadLock"
 	@echo "... Distinguish"
 	@echo "... MultiThread"

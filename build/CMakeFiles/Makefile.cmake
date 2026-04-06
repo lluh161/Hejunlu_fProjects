@@ -19,6 +19,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Users/hh/Desktop/Hejunlu_fProjects/操作系统相关内容/内存管理/CMakeLists.txt"
   "/Users/hh/Desktop/Hejunlu_fProjects/操作系统相关内容/死锁/CMakeLists.txt"
   "/Users/hh/Desktop/Hejunlu_fProjects/操作系统相关内容/进程与线程/CMakeLists.txt"
+  "/Users/hh/Desktop/Hejunlu_fProjects/网络编程相关内容/CMakeLists.txt"
+  "/Users/hh/Desktop/Hejunlu_fProjects/网络编程相关内容/IO多路复用/CMakeLists.txt"
+  "/Users/hh/Desktop/Hejunlu_fProjects/网络编程相关内容/TCP协议/CMakeLists.txt"
   "/opt/homebrew/share/cmake/Modules/CMakeCXXCompiler.cmake.in"
   "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
   "/opt/homebrew/share/cmake/Modules/CMakeCXXInformation.cmake"
@@ -128,6 +131,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "操作系统相关内容/进程与线程/CMakeFiles/CMakeDirectoryInformation.cmake"
   "操作系统相关内容/内存管理/CMakeFiles/CMakeDirectoryInformation.cmake"
   "操作系统相关内容/死锁/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "网络编程相关内容/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "网络编程相关内容/TCP协议/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "网络编程相关内容/IO多路复用/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -147,4 +153,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "操作系统相关内容/内存管理/CMakeFiles/VirtualMem.dir/DependInfo.cmake"
   "操作系统相关内容/内存管理/CMakeFiles/StackOverflow.dir/DependInfo.cmake"
   "操作系统相关内容/死锁/CMakeFiles/DeadLock.dir/DependInfo.cmake"
+  "操作系统相关内容/死锁/CMakeFiles/BankerAlgorithm.dir/DependInfo.cmake"
   )

@@ -1,5 +1,0 @@
-/Users/hh/Desktop/Hejunlu_fProjects/操作系统相关内容/内存管理/build/CMakeFiles/StackHeapDiff.dir
-/Users/hh/Desktop/Hejunlu_fProjects/操作系统相关内容/内存管理/build/CMakeFiles/VirtualMem.dir
-/Users/hh/Desktop/Hejunlu_fProjects/操作系统相关内容/内存管理/build/CMakeFiles/StackOverflow.dir
-/Users/hh/Desktop/Hejunlu_fProjects/操作系统相关内容/内存管理/build/CMakeFiles/edit_cache.dir
-/Users/hh/Desktop/Hejunlu_fProjects/操作系统相关内容/内存管理/build/CMakeFiles/rebuild_cache.dir
