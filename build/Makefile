@@ -324,6 +324,32 @@ BankerAlgorithm/fast:
 	$(MAKE) $(MAKESILENT) -f 操作系统相关内容/死锁/CMakeFiles/BankerAlgorithm.dir/build.make 操作系统相关内容/死锁/CMakeFiles/BankerAlgorithm.dir/build
 .PHONY : BankerAlgorithm/fast
 
+#=============================================================================
+# Target rules for targets named epoll_lt_echo
+
+# Build rule for target.
+epoll_lt_echo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 epoll_lt_echo
+.PHONY : epoll_lt_echo
+
+# fast build rule for target.
+epoll_lt_echo/fast:
+	$(MAKE) $(MAKESILENT) -f 网络编程相关内容/IO多路复用/CMakeFiles/epoll_lt_echo.dir/build.make 网络编程相关内容/IO多路复用/CMakeFiles/epoll_lt_echo.dir/build
+.PHONY : epoll_lt_echo/fast
+
+#=============================================================================
+# Target rules for targets named epoll_et_echo
+
+# Build rule for target.
+epoll_et_echo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 epoll_et_echo
+.PHONY : epoll_et_echo
+
+# fast build rule for target.
+epoll_et_echo/fast:
+	$(MAKE) $(MAKESILENT) -f 网络编程相关内容/IO多路复用/CMakeFiles/epoll_et_echo.dir/build.make 网络编程相关内容/IO多路复用/CMakeFiles/epoll_et_echo.dir/build
+.PHONY : epoll_et_echo/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -341,6 +367,8 @@ help:
 	@echo "... StateSwitch"
 	@echo "... VirtualMem"
 	@echo "... compare_demo"
+	@echo "... epoll_et_echo"
+	@echo "... epoll_lt_echo"
 	@echo "... iterator_demo"
 	@echo "... lambda_demo"
 	@echo "... move_demo"
