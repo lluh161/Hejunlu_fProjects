@@ -13,6 +13,6 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_BUILD_TYPE Debug CACHE STRING "Build type" FORCE)
 
 # 核心指令
-add_subdirectory("C++相关内容")
-add_subdirectory("操作系统相关内容")
-add_subdirectory("网络编程相关内容")
+add_subdirectory("基础知识")
+add_subdirectory("项目搭建")
+add_subdirectory("在线简历（html:css+ipfs分布式存储）")
