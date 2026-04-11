@@ -1,21 +1,36 @@
-# Hejunlu_fProjects
-面试项目 可供查看
+# 高性能 Echo 回声服务器
+基于 **Epoll + 主从 Reactor 模型 + 线程池** 的 Linux 高并发网络服务，实现工业级高可用回声服务器，支持 Docker 跨平台部署。
 
+---
 
-## 📁 项目目录
+## 项目简介
+本项目是一个基于 C++17 实现的高性能 Echo 回声服务器，采用 Linux 专属的 Epoll 多路复用技术，结合主从 Reactor 多线程架构与线程池异步调度，实现了高并发、低延迟的网络服务。
+- **核心功能**：客户端发送任意内容，服务器原样返回（回声服务）
+- **核心优势**：支持上万并发连接，IO 线程与业务线程分离，不阻塞主线程
+- **跨平台支持**：通过 Docker 容器化，完美适配 macOS / Linux 环境
 
-### C++ 项目
-- **EchoServer** - 基于 Epoll + 主从Reactor + 线程的的高性能网络服务器
-  - 技术：C++17、Epoll、Reactor、线程池、TCP、Docker
+---
 
-### Java 项目
-待更新
+## 🛠️ 技术栈
+| 技术/组件 | 作用 |
+|-----------|------|
+| C++17 | 核心开发语言 |
+| Epoll | Linux 内核级 IO 多路复用，高并发核心 |
+| 主从 Reactor 模型 | 多线程事件驱动，分离连接与业务处理 |
+| 线程池 | 异步执行业务逻辑，不阻塞 IO 线程 |
+| TCP 网络编程 | 底层网络通信实现 |
+| Docker | 容器化部署，跨平台运行 |
 
-### Python 项目
-待更新
+---
 
-### Web 项目
-待更新
+## 项目结构
+include/     头文件
+src/         源文件
+Dockerfile   部署文件
 
-## 📌 关于作者
-GitHub：https://github.com/lluh161
+## 运行（Docker）
+docker build -t echo-server .
+docker run -p 8888:8888 echo-server
+
+## 测试
+nc 127.0.0.1 8888
