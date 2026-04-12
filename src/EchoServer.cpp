@@ -7,6 +7,10 @@
 #include <functional>
 #include <unistd.h>
 #include <thread>
+#include <errno.h>
+#include <sys/socket.h>
+#include <fcntl.h>
+#include <netinet/tcp.h>
 
 EchoServer::EchoServer(EventLoop* loop, const InetAddress& listenAddr)//初始化服务器
     : loop_(loop),//主Reactor
@@ -68,42 +72,61 @@ void EchoServer::handleNewConnection(){//处理新客户端连接
 }
 */
 
-// 处理新客户端连接（唯一入口，彻底删除handleMessage）
+#include <errno.h>
+#include <unistd.h>
+#include <sys/socket.h>
+#include <fcntl.h>
+#include <netinet/tcp.h>
+#include <string.h>
+
+// 处理新客户端连接（唯一版本）
 void EchoServer::handleNewConnection()
 {
-    printf("✅ 新连接建立\n");
+    printf("✅ 新客户端连接\n");
 
     // 1. 接受客户端连接
     int cfd = accept(socket_->fd(), nullptr, nullptr);
     if (cfd < 0) {
-        perror("accept失败");
+        perror("accept 失败");
         return;
     }
 
-    // 2. 标准HTTP响应，严格遵循HTTP/1.1规范
-    const char* resp = 
+    // 2. 禁用Nagle算法，确保数据立即发送，解决macOS延迟问题
+    int opt = 1;
+    setsockopt(cfd, IPPROTO_TCP, TCP_NODELAY, &opt, sizeof(opt));
+
+    // 3. 标准HTTP响应（严格匹配Content-Length）
+    const char* body = "Hello HTTP Server!";
+    size_t body_len = strlen(body); // 自动计算长度，彻底避免手动计数错误
+
+    std::string resp =
         "HTTP/1.1 200 OK\r\n"
         "Content-Type: text/html; charset=utf-8\r\n"
-        "Content-Length: 20\r\n"
+        "Content-Length: " + std::to_string(body_len) + "\r\n"
         "Connection: close\r\n"
-        "\r\n"
-        "Hello HTTP Server!";
+        "\r\n" +
+        std::string(body);
 
-    // 3. 循环发送，确保数据完整发出（非阻塞IO必须做）
-    size_t len = strlen(resp);
-    ssize_t sent = 0;
-    while (sent < len) {
-        ssize_t n = send(cfd, resp + sent, len - sent, 0);
-        if (n <= 0) break;
-        sent += n;
+    // 4. 阻塞式send，确保数据100%完整发送
+    ssize_t sent = send(cfd, resp.c_str(), resp.size(), MSG_NOSIGNAL);
+    if (sent != resp.size()) {
+        perror("send 失败");
+        close(cfd);
+        return;
     }
-    printf("✅ 发送完成，共%zu字节\n", sent);
 
-    // 4. 优雅关闭，给浏览器足够时间接收
+    printf("✅ 响应发送完成：%zd 字节\n", sent);
+
+    // 5. 优雅关闭，等待客户端确认，避免强制断连
     shutdown(cfd, SHUT_WR);
-    usleep(100000); // 延迟100ms，Safari必须要这个缓冲
+    
+    // 阻塞等待客户端关闭，确保数据完整接收
+    char buf[1024];
+    while (read(cfd, buf, sizeof(buf)) > 0);
+
+    // 6. 最后关闭socket
     close(cfd);
-    printf("✅ 连接关闭\n");
+    printf("✅ 连接优雅关闭\n");
 }
 
 // 处理客户端发来的请求，并返回HTTP响应
