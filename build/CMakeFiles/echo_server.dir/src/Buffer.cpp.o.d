@@ -1,6 +1,6 @@
 CMakeFiles/echo_server.dir/src/Buffer.cpp.o: \
-  /Users/hh/Desktop/Hejunlu_fProjects/src/Buffer.cpp \
-  /Users/hh/Desktop/Hejunlu_fProjects/include/Buffer.h \
+  /Users/hh/Desktop/EchoServer/src/Buffer.cpp \
+  /Users/hh/Desktop/EchoServer/include/Buffer.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy_move_common.h \

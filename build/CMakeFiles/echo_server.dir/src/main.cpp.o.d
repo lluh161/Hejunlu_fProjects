@@ -1,6 +1,6 @@
 CMakeFiles/echo_server.dir/src/main.cpp.o: \
-  /Users/hh/Desktop/Hejunlu_fProjects/src/main.cpp \
-  /Users/hh/Desktop/Hejunlu_fProjects/include/EventLoop.h \
+  /Users/hh/Desktop/EchoServer/src/main.cpp \
+  /Users/hh/Desktop/EchoServer/include/EventLoop.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy_move_common.h \
@@ -846,8 +846,8 @@ CMakeFiles/echo_server.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/temp_value.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__split_buffer \
-  /Users/hh/Desktop/Hejunlu_fProjects/include/Epoll.h \
-  /Users/hh/Desktop/Hejunlu_fProjects/include/Channel.h \
+  /Users/hh/Desktop/EchoServer/include/Epoll.h \
+  /Users/hh/Desktop/EchoServer/include/Channel.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binary_negate.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/bind.h \
@@ -885,7 +885,7 @@ CMakeFiles/echo_server.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/select.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uuid_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/gethostuuid.h \
-  /Users/hh/Desktop/Hejunlu_fProjects/include/InetAddress.h \
+  /Users/hh/Desktop/EchoServer/include/InetAddress.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/netinet/in.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/socket.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/constrained_ctypes.h \
@@ -896,10 +896,10 @@ CMakeFiles/echo_server.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_socklen_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_iovec_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/netinet6/in6.h \
-  /Users/hh/Desktop/Hejunlu_fProjects/include/EchoServer.h \
-  /Users/hh/Desktop/Hejunlu_fProjects/include/Socket.h \
-  /Users/hh/Desktop/Hejunlu_fProjects/include/Buffer.h \
-  /Users/hh/Desktop/Hejunlu_fProjects/include/ThreadPool.h \
+  /Users/hh/Desktop/EchoServer/include/EchoServer.h \
+  /Users/hh/Desktop/EchoServer/include/Socket.h \
+  /Users/hh/Desktop/EchoServer/include/Buffer.h \
+  /Users/hh/Desktop/EchoServer/include/ThreadPool.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/queue \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/deque \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/thread \

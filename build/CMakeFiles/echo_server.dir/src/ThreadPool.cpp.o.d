@@ -1,6 +1,6 @@
 CMakeFiles/echo_server.dir/src/ThreadPool.cpp.o: \
-  /Users/hh/Desktop/Hejunlu_fProjects/src/ThreadPool.cpp \
-  /Users/hh/Desktop/Hejunlu_fProjects/include/ThreadPool.h \
+  /Users/hh/Desktop/EchoServer/src/ThreadPool.cpp \
+  /Users/hh/Desktop/EchoServer/include/ThreadPool.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy_move_common.h \

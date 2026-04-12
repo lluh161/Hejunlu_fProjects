@@ -54,10 +54,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hh/Desktop/Hejunlu_fProjects
+CMAKE_SOURCE_DIR = /Users/hh/Desktop/EchoServer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hh/Desktop/Hejunlu_fProjects/build
+CMAKE_BINARY_DIR = /Users/hh/Desktop/EchoServer/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -85,14 +85,14 @@ clean: CMakeFiles/echo_server.dir/clean
 CMakeFiles/echo_server.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo_server.dir/build.make CMakeFiles/echo_server.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo_server.dir/build.make CMakeFiles/echo_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hh/Desktop/Hejunlu_fProjects/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target echo_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hh/Desktop/EchoServer/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target echo_server"
 .PHONY : CMakeFiles/echo_server.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/echo_server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hh/Desktop/Hejunlu_fProjects/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hh/Desktop/EchoServer/build/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/echo_server.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hh/Desktop/Hejunlu_fProjects/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hh/Desktop/EchoServer/build/CMakeFiles 0
 .PHONY : CMakeFiles/echo_server.dir/rule
 
 # Convenience name for target.
@@ -102,7 +102,7 @@ echo_server: CMakeFiles/echo_server.dir/rule
 # codegen rule for target.
 CMakeFiles/echo_server.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo_server.dir/build.make CMakeFiles/echo_server.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hh/Desktop/Hejunlu_fProjects/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Finished codegen for target echo_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hh/Desktop/EchoServer/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Finished codegen for target echo_server"
 .PHONY : CMakeFiles/echo_server.dir/codegen
 
 # clean rule for target.

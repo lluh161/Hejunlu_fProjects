@@ -1,7 +1,10 @@
 #include "Channel.h"
+#include <unistd.h>  
+#include <cstdio>   
+#include <cstring>   
 
 //双参数构造
-Channel::Channel(void* loop,int fd) :loop_(loop),fd_(fd),events_(0), revents_(0), inEpoll_(false) {(void)loop_;}
+Channel::Channel(void* loop,int fd) :loop_(loop),fd_(fd),events_(0),revents_(0),inEpoll_(false) {(void)loop_;}
 
 void Channel::setReadCallback(std::function<void()> cb){
     readCallback_=std::move(cb);////当Channel检测到可读事件时，就调用这个存好的回调函数

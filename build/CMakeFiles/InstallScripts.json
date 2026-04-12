@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/Users/hh/Desktop/Hejunlu_fProjects/build/cmake_install.cmake"
+		"/Users/hh/Desktop/EchoServer/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

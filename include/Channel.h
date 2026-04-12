@@ -12,7 +12,7 @@
 
 using ReadCallback=std::function<void()>;//把std::function<void()>简写成ReadCallback
 
-class Channel{//封装fd为事件对象
+class Channel{//事件分发器
 public:
     //双参数构造
     Channel(void* loop,int fd);

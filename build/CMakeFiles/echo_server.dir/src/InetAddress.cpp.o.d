@@ -1,6 +1,6 @@
 CMakeFiles/echo_server.dir/src/InetAddress.cpp.o: \
-  /Users/hh/Desktop/Hejunlu_fProjects/src/InetAddress.cpp \
-  /Users/hh/Desktop/Hejunlu_fProjects/include/InetAddress.h \
+  /Users/hh/Desktop/EchoServer/src/InetAddress.cpp \
+  /Users/hh/Desktop/EchoServer/include/InetAddress.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/netinet/in.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/appleapiopts.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdint.h \

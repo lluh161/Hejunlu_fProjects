@@ -4,8 +4,10 @@
 #include <vector>
 #include "Channel.h"
 
-//前置声明 Channel 类
+//前置声明Channel类
 class Channel;
+
+//I/O多路复用封装
 
 //跨平台适配
 #if defined(__linux__)

@@ -1,6 +1,6 @@
 CMakeFiles/echo_server.dir/src/Epoll.cpp.o: \
-  /Users/hh/Desktop/Hejunlu_fProjects/src/Epoll.cpp \
-  /Users/hh/Desktop/Hejunlu_fProjects/include/Epoll.h \
+  /Users/hh/Desktop/EchoServer/src/Epoll.cpp \
+  /Users/hh/Desktop/EchoServer/include/Epoll.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy_move_common.h \
@@ -846,7 +846,7 @@ CMakeFiles/echo_server.dir/src/Epoll.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/temp_value.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__split_buffer \
-  /Users/hh/Desktop/Hejunlu_fProjects/include/Channel.h \
+  /Users/hh/Desktop/EchoServer/include/Channel.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binary_negate.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/bind.h \

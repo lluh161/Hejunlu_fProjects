@@ -3,7 +3,7 @@
 
 #include <string>
 
-class Log {
+class Log{
 public:
     static std::string getCurrentTime();
     static void log(const std::string& msg);

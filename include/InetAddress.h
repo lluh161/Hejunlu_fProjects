@@ -1,7 +1,7 @@
 #pragma once
 #include <netinet/in.h>
 
-class InetAddress{//封装IP+端口，同一管理地址
+class InetAddress{//地址封装，封装IP+端口，同一管理地址
 private:
     sockaddr_in addr_;//存IP+端口+协议族
 public:

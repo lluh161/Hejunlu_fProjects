@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hh/Desktop/Hejunlu_fProjects
+CMAKE_SOURCE_DIR = /Users/hh/Desktop/EchoServer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hh/Desktop/Hejunlu_fProjects/build
+CMAKE_BINARY_DIR = /Users/hh/Desktop/EchoServer/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/echo_server.dir/depend.make
@@ -73,158 +73,158 @@ CMakeFiles/echo_server.dir/codegen:
 .PHONY : CMakeFiles/echo_server.dir/codegen
 
 CMakeFiles/echo_server.dir/src/Buffer.cpp.o: CMakeFiles/echo_server.dir/flags.make
-CMakeFiles/echo_server.dir/src/Buffer.cpp.o: /Users/hh/Desktop/Hejunlu_fProjects/src/Buffer.cpp
+CMakeFiles/echo_server.dir/src/Buffer.cpp.o: /Users/hh/Desktop/EchoServer/src/Buffer.cpp
 CMakeFiles/echo_server.dir/src/Buffer.cpp.o: CMakeFiles/echo_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/Hejunlu_fProjects/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/echo_server.dir/src/Buffer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/Buffer.cpp.o -MF CMakeFiles/echo_server.dir/src/Buffer.cpp.o.d -o CMakeFiles/echo_server.dir/src/Buffer.cpp.o -c /Users/hh/Desktop/Hejunlu_fProjects/src/Buffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/EchoServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/echo_server.dir/src/Buffer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/Buffer.cpp.o -MF CMakeFiles/echo_server.dir/src/Buffer.cpp.o.d -o CMakeFiles/echo_server.dir/src/Buffer.cpp.o -c /Users/hh/Desktop/EchoServer/src/Buffer.cpp
 
 CMakeFiles/echo_server.dir/src/Buffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/echo_server.dir/src/Buffer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/Hejunlu_fProjects/src/Buffer.cpp > CMakeFiles/echo_server.dir/src/Buffer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/EchoServer/src/Buffer.cpp > CMakeFiles/echo_server.dir/src/Buffer.cpp.i
 
 CMakeFiles/echo_server.dir/src/Buffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/echo_server.dir/src/Buffer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/Hejunlu_fProjects/src/Buffer.cpp -o CMakeFiles/echo_server.dir/src/Buffer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/EchoServer/src/Buffer.cpp -o CMakeFiles/echo_server.dir/src/Buffer.cpp.s
 
 CMakeFiles/echo_server.dir/src/Channel.cpp.o: CMakeFiles/echo_server.dir/flags.make
-CMakeFiles/echo_server.dir/src/Channel.cpp.o: /Users/hh/Desktop/Hejunlu_fProjects/src/Channel.cpp
+CMakeFiles/echo_server.dir/src/Channel.cpp.o: /Users/hh/Desktop/EchoServer/src/Channel.cpp
 CMakeFiles/echo_server.dir/src/Channel.cpp.o: CMakeFiles/echo_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/Hejunlu_fProjects/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/echo_server.dir/src/Channel.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/Channel.cpp.o -MF CMakeFiles/echo_server.dir/src/Channel.cpp.o.d -o CMakeFiles/echo_server.dir/src/Channel.cpp.o -c /Users/hh/Desktop/Hejunlu_fProjects/src/Channel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/EchoServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/echo_server.dir/src/Channel.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/Channel.cpp.o -MF CMakeFiles/echo_server.dir/src/Channel.cpp.o.d -o CMakeFiles/echo_server.dir/src/Channel.cpp.o -c /Users/hh/Desktop/EchoServer/src/Channel.cpp
 
 CMakeFiles/echo_server.dir/src/Channel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/echo_server.dir/src/Channel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/Hejunlu_fProjects/src/Channel.cpp > CMakeFiles/echo_server.dir/src/Channel.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/EchoServer/src/Channel.cpp > CMakeFiles/echo_server.dir/src/Channel.cpp.i
 
 CMakeFiles/echo_server.dir/src/Channel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/echo_server.dir/src/Channel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/Hejunlu_fProjects/src/Channel.cpp -o CMakeFiles/echo_server.dir/src/Channel.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/EchoServer/src/Channel.cpp -o CMakeFiles/echo_server.dir/src/Channel.cpp.s
 
 CMakeFiles/echo_server.dir/src/EchoServer.cpp.o: CMakeFiles/echo_server.dir/flags.make
-CMakeFiles/echo_server.dir/src/EchoServer.cpp.o: /Users/hh/Desktop/Hejunlu_fProjects/src/EchoServer.cpp
+CMakeFiles/echo_server.dir/src/EchoServer.cpp.o: /Users/hh/Desktop/EchoServer/src/EchoServer.cpp
 CMakeFiles/echo_server.dir/src/EchoServer.cpp.o: CMakeFiles/echo_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/Hejunlu_fProjects/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/echo_server.dir/src/EchoServer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/EchoServer.cpp.o -MF CMakeFiles/echo_server.dir/src/EchoServer.cpp.o.d -o CMakeFiles/echo_server.dir/src/EchoServer.cpp.o -c /Users/hh/Desktop/Hejunlu_fProjects/src/EchoServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/EchoServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/echo_server.dir/src/EchoServer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/EchoServer.cpp.o -MF CMakeFiles/echo_server.dir/src/EchoServer.cpp.o.d -o CMakeFiles/echo_server.dir/src/EchoServer.cpp.o -c /Users/hh/Desktop/EchoServer/src/EchoServer.cpp
 
 CMakeFiles/echo_server.dir/src/EchoServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/echo_server.dir/src/EchoServer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/Hejunlu_fProjects/src/EchoServer.cpp > CMakeFiles/echo_server.dir/src/EchoServer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/EchoServer/src/EchoServer.cpp > CMakeFiles/echo_server.dir/src/EchoServer.cpp.i
 
 CMakeFiles/echo_server.dir/src/EchoServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/echo_server.dir/src/EchoServer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/Hejunlu_fProjects/src/EchoServer.cpp -o CMakeFiles/echo_server.dir/src/EchoServer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/EchoServer/src/EchoServer.cpp -o CMakeFiles/echo_server.dir/src/EchoServer.cpp.s
 
 CMakeFiles/echo_server.dir/src/Epoll.cpp.o: CMakeFiles/echo_server.dir/flags.make
-CMakeFiles/echo_server.dir/src/Epoll.cpp.o: /Users/hh/Desktop/Hejunlu_fProjects/src/Epoll.cpp
+CMakeFiles/echo_server.dir/src/Epoll.cpp.o: /Users/hh/Desktop/EchoServer/src/Epoll.cpp
 CMakeFiles/echo_server.dir/src/Epoll.cpp.o: CMakeFiles/echo_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/Hejunlu_fProjects/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/echo_server.dir/src/Epoll.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/Epoll.cpp.o -MF CMakeFiles/echo_server.dir/src/Epoll.cpp.o.d -o CMakeFiles/echo_server.dir/src/Epoll.cpp.o -c /Users/hh/Desktop/Hejunlu_fProjects/src/Epoll.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/EchoServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/echo_server.dir/src/Epoll.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/Epoll.cpp.o -MF CMakeFiles/echo_server.dir/src/Epoll.cpp.o.d -o CMakeFiles/echo_server.dir/src/Epoll.cpp.o -c /Users/hh/Desktop/EchoServer/src/Epoll.cpp
 
 CMakeFiles/echo_server.dir/src/Epoll.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/echo_server.dir/src/Epoll.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/Hejunlu_fProjects/src/Epoll.cpp > CMakeFiles/echo_server.dir/src/Epoll.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/EchoServer/src/Epoll.cpp > CMakeFiles/echo_server.dir/src/Epoll.cpp.i
 
 CMakeFiles/echo_server.dir/src/Epoll.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/echo_server.dir/src/Epoll.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/Hejunlu_fProjects/src/Epoll.cpp -o CMakeFiles/echo_server.dir/src/Epoll.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/EchoServer/src/Epoll.cpp -o CMakeFiles/echo_server.dir/src/Epoll.cpp.s
 
 CMakeFiles/echo_server.dir/src/EventLoop.cpp.o: CMakeFiles/echo_server.dir/flags.make
-CMakeFiles/echo_server.dir/src/EventLoop.cpp.o: /Users/hh/Desktop/Hejunlu_fProjects/src/EventLoop.cpp
+CMakeFiles/echo_server.dir/src/EventLoop.cpp.o: /Users/hh/Desktop/EchoServer/src/EventLoop.cpp
 CMakeFiles/echo_server.dir/src/EventLoop.cpp.o: CMakeFiles/echo_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/Hejunlu_fProjects/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/echo_server.dir/src/EventLoop.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/EventLoop.cpp.o -MF CMakeFiles/echo_server.dir/src/EventLoop.cpp.o.d -o CMakeFiles/echo_server.dir/src/EventLoop.cpp.o -c /Users/hh/Desktop/Hejunlu_fProjects/src/EventLoop.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/EchoServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/echo_server.dir/src/EventLoop.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/EventLoop.cpp.o -MF CMakeFiles/echo_server.dir/src/EventLoop.cpp.o.d -o CMakeFiles/echo_server.dir/src/EventLoop.cpp.o -c /Users/hh/Desktop/EchoServer/src/EventLoop.cpp
 
 CMakeFiles/echo_server.dir/src/EventLoop.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/echo_server.dir/src/EventLoop.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/Hejunlu_fProjects/src/EventLoop.cpp > CMakeFiles/echo_server.dir/src/EventLoop.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/EchoServer/src/EventLoop.cpp > CMakeFiles/echo_server.dir/src/EventLoop.cpp.i
 
 CMakeFiles/echo_server.dir/src/EventLoop.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/echo_server.dir/src/EventLoop.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/Hejunlu_fProjects/src/EventLoop.cpp -o CMakeFiles/echo_server.dir/src/EventLoop.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/EchoServer/src/EventLoop.cpp -o CMakeFiles/echo_server.dir/src/EventLoop.cpp.s
 
-CMakeFiles/echo_server.dir/src/HttpRequest.cpp.o: CMakeFiles/echo_server.dir/flags.make
-CMakeFiles/echo_server.dir/src/HttpRequest.cpp.o: /Users/hh/Desktop/Hejunlu_fProjects/src/HttpRequest.cpp
-CMakeFiles/echo_server.dir/src/HttpRequest.cpp.o: CMakeFiles/echo_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/Hejunlu_fProjects/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/echo_server.dir/src/HttpRequest.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/HttpRequest.cpp.o -MF CMakeFiles/echo_server.dir/src/HttpRequest.cpp.o.d -o CMakeFiles/echo_server.dir/src/HttpRequest.cpp.o -c /Users/hh/Desktop/Hejunlu_fProjects/src/HttpRequest.cpp
+CMakeFiles/echo_server.dir/src/Http.cpp.o: CMakeFiles/echo_server.dir/flags.make
+CMakeFiles/echo_server.dir/src/Http.cpp.o: /Users/hh/Desktop/EchoServer/src/Http.cpp
+CMakeFiles/echo_server.dir/src/Http.cpp.o: CMakeFiles/echo_server.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/EchoServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/echo_server.dir/src/Http.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/Http.cpp.o -MF CMakeFiles/echo_server.dir/src/Http.cpp.o.d -o CMakeFiles/echo_server.dir/src/Http.cpp.o -c /Users/hh/Desktop/EchoServer/src/Http.cpp
 
-CMakeFiles/echo_server.dir/src/HttpRequest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/echo_server.dir/src/HttpRequest.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/Hejunlu_fProjects/src/HttpRequest.cpp > CMakeFiles/echo_server.dir/src/HttpRequest.cpp.i
+CMakeFiles/echo_server.dir/src/Http.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/echo_server.dir/src/Http.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/EchoServer/src/Http.cpp > CMakeFiles/echo_server.dir/src/Http.cpp.i
 
-CMakeFiles/echo_server.dir/src/HttpRequest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/echo_server.dir/src/HttpRequest.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/Hejunlu_fProjects/src/HttpRequest.cpp -o CMakeFiles/echo_server.dir/src/HttpRequest.cpp.s
+CMakeFiles/echo_server.dir/src/Http.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/echo_server.dir/src/Http.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/EchoServer/src/Http.cpp -o CMakeFiles/echo_server.dir/src/Http.cpp.s
 
 CMakeFiles/echo_server.dir/src/InetAddress.cpp.o: CMakeFiles/echo_server.dir/flags.make
-CMakeFiles/echo_server.dir/src/InetAddress.cpp.o: /Users/hh/Desktop/Hejunlu_fProjects/src/InetAddress.cpp
+CMakeFiles/echo_server.dir/src/InetAddress.cpp.o: /Users/hh/Desktop/EchoServer/src/InetAddress.cpp
 CMakeFiles/echo_server.dir/src/InetAddress.cpp.o: CMakeFiles/echo_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/Hejunlu_fProjects/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/echo_server.dir/src/InetAddress.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/InetAddress.cpp.o -MF CMakeFiles/echo_server.dir/src/InetAddress.cpp.o.d -o CMakeFiles/echo_server.dir/src/InetAddress.cpp.o -c /Users/hh/Desktop/Hejunlu_fProjects/src/InetAddress.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/EchoServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/echo_server.dir/src/InetAddress.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/InetAddress.cpp.o -MF CMakeFiles/echo_server.dir/src/InetAddress.cpp.o.d -o CMakeFiles/echo_server.dir/src/InetAddress.cpp.o -c /Users/hh/Desktop/EchoServer/src/InetAddress.cpp
 
 CMakeFiles/echo_server.dir/src/InetAddress.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/echo_server.dir/src/InetAddress.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/Hejunlu_fProjects/src/InetAddress.cpp > CMakeFiles/echo_server.dir/src/InetAddress.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/EchoServer/src/InetAddress.cpp > CMakeFiles/echo_server.dir/src/InetAddress.cpp.i
 
 CMakeFiles/echo_server.dir/src/InetAddress.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/echo_server.dir/src/InetAddress.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/Hejunlu_fProjects/src/InetAddress.cpp -o CMakeFiles/echo_server.dir/src/InetAddress.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/EchoServer/src/InetAddress.cpp -o CMakeFiles/echo_server.dir/src/InetAddress.cpp.s
 
 CMakeFiles/echo_server.dir/src/Log.cpp.o: CMakeFiles/echo_server.dir/flags.make
-CMakeFiles/echo_server.dir/src/Log.cpp.o: /Users/hh/Desktop/Hejunlu_fProjects/src/Log.cpp
+CMakeFiles/echo_server.dir/src/Log.cpp.o: /Users/hh/Desktop/EchoServer/src/Log.cpp
 CMakeFiles/echo_server.dir/src/Log.cpp.o: CMakeFiles/echo_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/Hejunlu_fProjects/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/echo_server.dir/src/Log.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/Log.cpp.o -MF CMakeFiles/echo_server.dir/src/Log.cpp.o.d -o CMakeFiles/echo_server.dir/src/Log.cpp.o -c /Users/hh/Desktop/Hejunlu_fProjects/src/Log.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/EchoServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/echo_server.dir/src/Log.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/Log.cpp.o -MF CMakeFiles/echo_server.dir/src/Log.cpp.o.d -o CMakeFiles/echo_server.dir/src/Log.cpp.o -c /Users/hh/Desktop/EchoServer/src/Log.cpp
 
 CMakeFiles/echo_server.dir/src/Log.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/echo_server.dir/src/Log.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/Hejunlu_fProjects/src/Log.cpp > CMakeFiles/echo_server.dir/src/Log.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/EchoServer/src/Log.cpp > CMakeFiles/echo_server.dir/src/Log.cpp.i
 
 CMakeFiles/echo_server.dir/src/Log.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/echo_server.dir/src/Log.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/Hejunlu_fProjects/src/Log.cpp -o CMakeFiles/echo_server.dir/src/Log.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/EchoServer/src/Log.cpp -o CMakeFiles/echo_server.dir/src/Log.cpp.s
 
 CMakeFiles/echo_server.dir/src/Socket.cpp.o: CMakeFiles/echo_server.dir/flags.make
-CMakeFiles/echo_server.dir/src/Socket.cpp.o: /Users/hh/Desktop/Hejunlu_fProjects/src/Socket.cpp
+CMakeFiles/echo_server.dir/src/Socket.cpp.o: /Users/hh/Desktop/EchoServer/src/Socket.cpp
 CMakeFiles/echo_server.dir/src/Socket.cpp.o: CMakeFiles/echo_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/Hejunlu_fProjects/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/echo_server.dir/src/Socket.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/Socket.cpp.o -MF CMakeFiles/echo_server.dir/src/Socket.cpp.o.d -o CMakeFiles/echo_server.dir/src/Socket.cpp.o -c /Users/hh/Desktop/Hejunlu_fProjects/src/Socket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/EchoServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/echo_server.dir/src/Socket.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/Socket.cpp.o -MF CMakeFiles/echo_server.dir/src/Socket.cpp.o.d -o CMakeFiles/echo_server.dir/src/Socket.cpp.o -c /Users/hh/Desktop/EchoServer/src/Socket.cpp
 
 CMakeFiles/echo_server.dir/src/Socket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/echo_server.dir/src/Socket.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/Hejunlu_fProjects/src/Socket.cpp > CMakeFiles/echo_server.dir/src/Socket.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/EchoServer/src/Socket.cpp > CMakeFiles/echo_server.dir/src/Socket.cpp.i
 
 CMakeFiles/echo_server.dir/src/Socket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/echo_server.dir/src/Socket.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/Hejunlu_fProjects/src/Socket.cpp -o CMakeFiles/echo_server.dir/src/Socket.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/EchoServer/src/Socket.cpp -o CMakeFiles/echo_server.dir/src/Socket.cpp.s
 
 CMakeFiles/echo_server.dir/src/ThreadPool.cpp.o: CMakeFiles/echo_server.dir/flags.make
-CMakeFiles/echo_server.dir/src/ThreadPool.cpp.o: /Users/hh/Desktop/Hejunlu_fProjects/src/ThreadPool.cpp
+CMakeFiles/echo_server.dir/src/ThreadPool.cpp.o: /Users/hh/Desktop/EchoServer/src/ThreadPool.cpp
 CMakeFiles/echo_server.dir/src/ThreadPool.cpp.o: CMakeFiles/echo_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/Hejunlu_fProjects/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/echo_server.dir/src/ThreadPool.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/ThreadPool.cpp.o -MF CMakeFiles/echo_server.dir/src/ThreadPool.cpp.o.d -o CMakeFiles/echo_server.dir/src/ThreadPool.cpp.o -c /Users/hh/Desktop/Hejunlu_fProjects/src/ThreadPool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/EchoServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/echo_server.dir/src/ThreadPool.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/ThreadPool.cpp.o -MF CMakeFiles/echo_server.dir/src/ThreadPool.cpp.o.d -o CMakeFiles/echo_server.dir/src/ThreadPool.cpp.o -c /Users/hh/Desktop/EchoServer/src/ThreadPool.cpp
 
 CMakeFiles/echo_server.dir/src/ThreadPool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/echo_server.dir/src/ThreadPool.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/Hejunlu_fProjects/src/ThreadPool.cpp > CMakeFiles/echo_server.dir/src/ThreadPool.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/EchoServer/src/ThreadPool.cpp > CMakeFiles/echo_server.dir/src/ThreadPool.cpp.i
 
 CMakeFiles/echo_server.dir/src/ThreadPool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/echo_server.dir/src/ThreadPool.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/Hejunlu_fProjects/src/ThreadPool.cpp -o CMakeFiles/echo_server.dir/src/ThreadPool.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/EchoServer/src/ThreadPool.cpp -o CMakeFiles/echo_server.dir/src/ThreadPool.cpp.s
 
 CMakeFiles/echo_server.dir/src/main.cpp.o: CMakeFiles/echo_server.dir/flags.make
-CMakeFiles/echo_server.dir/src/main.cpp.o: /Users/hh/Desktop/Hejunlu_fProjects/src/main.cpp
+CMakeFiles/echo_server.dir/src/main.cpp.o: /Users/hh/Desktop/EchoServer/src/main.cpp
 CMakeFiles/echo_server.dir/src/main.cpp.o: CMakeFiles/echo_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/Hejunlu_fProjects/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/echo_server.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/main.cpp.o -MF CMakeFiles/echo_server.dir/src/main.cpp.o.d -o CMakeFiles/echo_server.dir/src/main.cpp.o -c /Users/hh/Desktop/Hejunlu_fProjects/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/EchoServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/echo_server.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/main.cpp.o -MF CMakeFiles/echo_server.dir/src/main.cpp.o.d -o CMakeFiles/echo_server.dir/src/main.cpp.o -c /Users/hh/Desktop/EchoServer/src/main.cpp
 
 CMakeFiles/echo_server.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/echo_server.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/Hejunlu_fProjects/src/main.cpp > CMakeFiles/echo_server.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/EchoServer/src/main.cpp > CMakeFiles/echo_server.dir/src/main.cpp.i
 
 CMakeFiles/echo_server.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/echo_server.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/Hejunlu_fProjects/src/main.cpp -o CMakeFiles/echo_server.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/EchoServer/src/main.cpp -o CMakeFiles/echo_server.dir/src/main.cpp.s
 
 # Object files for target echo_server
 echo_server_OBJECTS = \
@@ -233,7 +233,7 @@ echo_server_OBJECTS = \
 "CMakeFiles/echo_server.dir/src/EchoServer.cpp.o" \
 "CMakeFiles/echo_server.dir/src/Epoll.cpp.o" \
 "CMakeFiles/echo_server.dir/src/EventLoop.cpp.o" \
-"CMakeFiles/echo_server.dir/src/HttpRequest.cpp.o" \
+"CMakeFiles/echo_server.dir/src/Http.cpp.o" \
 "CMakeFiles/echo_server.dir/src/InetAddress.cpp.o" \
 "CMakeFiles/echo_server.dir/src/Log.cpp.o" \
 "CMakeFiles/echo_server.dir/src/Socket.cpp.o" \
@@ -248,7 +248,7 @@ echo_server: CMakeFiles/echo_server.dir/src/Channel.cpp.o
 echo_server: CMakeFiles/echo_server.dir/src/EchoServer.cpp.o
 echo_server: CMakeFiles/echo_server.dir/src/Epoll.cpp.o
 echo_server: CMakeFiles/echo_server.dir/src/EventLoop.cpp.o
-echo_server: CMakeFiles/echo_server.dir/src/HttpRequest.cpp.o
+echo_server: CMakeFiles/echo_server.dir/src/Http.cpp.o
 echo_server: CMakeFiles/echo_server.dir/src/InetAddress.cpp.o
 echo_server: CMakeFiles/echo_server.dir/src/Log.cpp.o
 echo_server: CMakeFiles/echo_server.dir/src/Socket.cpp.o
@@ -256,7 +256,7 @@ echo_server: CMakeFiles/echo_server.dir/src/ThreadPool.cpp.o
 echo_server: CMakeFiles/echo_server.dir/src/main.cpp.o
 echo_server: CMakeFiles/echo_server.dir/build.make
 echo_server: CMakeFiles/echo_server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/hh/Desktop/Hejunlu_fProjects/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable echo_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/hh/Desktop/EchoServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable echo_server"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/echo_server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -268,6 +268,6 @@ CMakeFiles/echo_server.dir/clean:
 .PHONY : CMakeFiles/echo_server.dir/clean
 
 CMakeFiles/echo_server.dir/depend:
-	cd /Users/hh/Desktop/Hejunlu_fProjects/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/hh/Desktop/Hejunlu_fProjects /Users/hh/Desktop/Hejunlu_fProjects /Users/hh/Desktop/Hejunlu_fProjects/build /Users/hh/Desktop/Hejunlu_fProjects/build /Users/hh/Desktop/Hejunlu_fProjects/build/CMakeFiles/echo_server.dir/DependInfo.cmake "--color=$(COLOR)" echo_server
+	cd /Users/hh/Desktop/EchoServer/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/hh/Desktop/EchoServer /Users/hh/Desktop/EchoServer /Users/hh/Desktop/EchoServer/build /Users/hh/Desktop/EchoServer/build /Users/hh/Desktop/EchoServer/build/CMakeFiles/echo_server.dir/DependInfo.cmake "--color=$(COLOR)" echo_server
 .PHONY : CMakeFiles/echo_server.dir/depend
 

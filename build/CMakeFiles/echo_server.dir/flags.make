@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/hh/Desktop/Hejunlu_fProjects/include
+CXX_INCLUDES = -I/Users/hh/Desktop/EchoServer/include
 
 CXX_FLAGSarm64 = -std=c++17 -arch arm64
 

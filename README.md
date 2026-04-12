@@ -26,6 +26,7 @@
 ## 项目结构
 include/     头文件
 src/         源文件
+knowledge/   基础知识文件
 Dockerfile   部署文件
 
 ## 运行（Docker）
