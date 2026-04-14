@@ -393,6 +393,30 @@ src/ThreadPool.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo_server.dir/build.make CMakeFiles/echo_server.dir/src/ThreadPool.cpp.s
 .PHONY : src/ThreadPool.cpp.s
 
+src/Timer.o: src/Timer.cpp.o
+.PHONY : src/Timer.o
+
+# target to build an object file
+src/Timer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo_server.dir/build.make CMakeFiles/echo_server.dir/src/Timer.cpp.o
+.PHONY : src/Timer.cpp.o
+
+src/Timer.i: src/Timer.cpp.i
+.PHONY : src/Timer.i
+
+# target to preprocess a source file
+src/Timer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo_server.dir/build.make CMakeFiles/echo_server.dir/src/Timer.cpp.i
+.PHONY : src/Timer.cpp.i
+
+src/Timer.s: src/Timer.cpp.s
+.PHONY : src/Timer.s
+
+# target to generate assembly for a file
+src/Timer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo_server.dir/build.make CMakeFiles/echo_server.dir/src/Timer.cpp.s
+.PHONY : src/Timer.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -459,6 +483,9 @@ help:
 	@echo "... src/ThreadPool.o"
 	@echo "... src/ThreadPool.i"
 	@echo "... src/ThreadPool.s"
+	@echo "... src/Timer.o"
+	@echo "... src/Timer.i"
+	@echo "... src/Timer.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

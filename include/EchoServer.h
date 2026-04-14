@@ -18,7 +18,7 @@ public:
     void start();//开启子Reactor循环，开始处理连接
 private:
     void handleNewConnection();//处理新客户端连接
-    void handleMessage(int clientFd,Buffer* buf);//处理客户端消息
+    void handleMessage(int cfd, Buffer* buf);//处理客户端消息
 
     EventLoop* loop_;//主Reactor：只负责监听新连接
     std::unique_ptr<Socket> socket_;//服务端监听套接字

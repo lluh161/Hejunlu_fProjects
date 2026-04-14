@@ -19,6 +19,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/hh/Desktop/EchoServer/src/Log.cpp" "CMakeFiles/echo_server.dir/src/Log.cpp.o" "gcc" "CMakeFiles/echo_server.dir/src/Log.cpp.o.d"
   "/Users/hh/Desktop/EchoServer/src/Socket.cpp" "CMakeFiles/echo_server.dir/src/Socket.cpp.o" "gcc" "CMakeFiles/echo_server.dir/src/Socket.cpp.o.d"
   "/Users/hh/Desktop/EchoServer/src/ThreadPool.cpp" "CMakeFiles/echo_server.dir/src/ThreadPool.cpp.o" "gcc" "CMakeFiles/echo_server.dir/src/ThreadPool.cpp.o.d"
+  "/Users/hh/Desktop/EchoServer/src/Timer.cpp" "CMakeFiles/echo_server.dir/src/Timer.cpp.o" "gcc" "CMakeFiles/echo_server.dir/src/Timer.cpp.o.d"
   "/Users/hh/Desktop/EchoServer/src/main.cpp" "CMakeFiles/echo_server.dir/src/main.cpp.o" "gcc" "CMakeFiles/echo_server.dir/src/main.cpp.o.d"
   )
 

@@ -21,6 +21,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/echo_server.dir/src/Socket.cpp.o.d"
   "CMakeFiles/echo_server.dir/src/ThreadPool.cpp.o"
   "CMakeFiles/echo_server.dir/src/ThreadPool.cpp.o.d"
+  "CMakeFiles/echo_server.dir/src/Timer.cpp.o"
+  "CMakeFiles/echo_server.dir/src/Timer.cpp.o.d"
   "CMakeFiles/echo_server.dir/src/main.cpp.o"
   "CMakeFiles/echo_server.dir/src/main.cpp.o.d"
   "echo_server"

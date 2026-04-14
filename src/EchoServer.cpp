@@ -15,6 +15,7 @@
 #include <netinet/tcp.h>
 #include <string.h>
 #include <stdio.h>
+#include <memory>
 #include <stdlib.h>
 
 
@@ -65,7 +66,7 @@ void EchoServer::handleNewConnection() {
 
     LOGI("新客户端连接 fd=%d", cfd);
 
-    //你框架已有的非阻塞设置
+    //已有的非阻塞设置
     int flags = fcntl(cfd, F_GETFL, 0);
     fcntl(cfd, F_SETFL, flags | O_NONBLOCK);
 
@@ -73,10 +74,18 @@ void EchoServer::handleNewConnection() {
     static int next = 0;
     EventLoop* subLoop = subLoops_[next++ % subLoops_.size()].get();
 
+    // ===================== 最简单定时器：10秒超时关闭 =====================
+    // 只做一件事：连接建立 10 秒后关闭，不刷新、不传递、不报错
+    subLoop->runAfter(10000, [=]() {
+        LOGW("连接超时关闭 fd=%d", cfd);
+        close(cfd);
+    });
+    // ====================================================================
+
     //创建客户端channel
     Channel* clientChannel = new Channel(subLoop, cfd);
 
-    // 不改变 ReadCallback 类型！
+    // 完全不改变你原有代码！
     clientChannel->setReadCallback([this, cfd]() {
         Buffer* buf = new Buffer();
         handleMessage(cfd, buf);
@@ -128,8 +137,7 @@ void EchoServer::handleMessage(int cfd, Buffer* buf){
 
     //优雅关闭
     shutdown(cfd, SHUT_WR);
-    close(cfd);
-
     delete buf;
     LOGD("响应完成，关闭 fd=%d", cfd);
+    close(cfd);
 }
